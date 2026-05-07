@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pl"> <head>
+    <meta charset="utf-8" /> <title>Strona o mnie</title> </head>
+<body>
+
+    <header> <h1>Moja Strona Internetowa</h1> </header>
+
+    <nav> <a href="index.html">Strona główna</a> </nav>
+
+    <main> <section> <p>Nazywam się <strong>Dmytro Poleshchuk</strong>.</p> <p>Studiuję informatykę. Bardzo lubię <em>programowanie</em>.</p> </section>
+
+        <hr> <article> <h2>Moje wykształcenie</h2>
+            <table> <tr> <th>Szkoła</th> <th>Miasto</th>
+                    <th>Okres</th>
+                </tr>
+                <tr>
+                    <td>Skzola nr77</td> <td>Lviv</td>
+                    <td>2014-2025</td>
+                </tr>
+            </table>
+        </article>
+
+        <aside> <h3>Moje zainteresowania</h3>
+            <ul> <il>Film: <a href="https://en.wikipedia.org/wiki/Casino_Royale_(2006_film)">Recenzja</a></il>
+                <il>Gry komputerowe: <a href="https://en.wikipedia.org/wiki/Counter-Strike_2">Recenzja</a></il>
+            </ul>
+        </aside>
+
+        <section>
+            <h3>Moje zdjęcie</h3>
+            <img src="https://wezom.academy/Media/files/filemanager/top-5-samyh-vostrebovannyh-jazykov-programmirovanija-v-2022-godu/top-5-samyh-vostrebovannyh-jazykov-programmirovanija-v-2022-godu-1.png" alt="Opis mojego zdjęcia"> </section>
+
+        <section>
+            <h3>Newsletter</h3>
+            <form> <label>Imie:</label> <input type="text"> <br> <label>Mail:</label>
+                <input type="email">
+                <br>
+
+                <label>Codzinne nowosci?</label>
+                <input type="checkbox">
+                <br>
+
+                <button>Obserwacja!</button> </form>
+        </section>
+    </main>
+
+    <footer> <p>Autor: Dmytro Poleshchuk 73809</p>
+    </footer>
+
+</body>
+</html>
